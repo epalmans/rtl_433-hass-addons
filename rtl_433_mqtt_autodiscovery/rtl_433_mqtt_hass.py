@@ -117,7 +117,7 @@ import paho.mqtt.client as mqtt
 discovery_timeouts = {}
 
 # Fields used for creating topic names
-NAMING_KEYS = [ "type", "model", "subtype", "channel", "id" ]
+NAMING_KEYS = [ "type", "model", "subtype", "channel" ]
 
 # Fields that get ignored when publishing to Home Assistant
 # (reduces noise to help spot missing field mappings)
