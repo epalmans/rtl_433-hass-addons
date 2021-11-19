@@ -1,6 +1,6 @@
 ARG BUILD_FROM
 FROM $BUILD_FROM as builder
-MAINTAINER pbkhrv@pm.me
+MAINTAINER eddie@palmans.nl
 
 ENV LANG C.UTF-8
 
